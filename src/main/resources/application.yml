@@ -1,0 +1,16 @@
+spring:
+  cloud:
+    consul:
+      config:
+        enabled: true
+        fail-fast: true
+      host: localhost
+#        import-check:
+#          enabled=false:
+      port: 8500
+  application:
+    name: Siva_Dev
+server:
+  port: 8081
+
+
